@@ -1,0 +1,35 @@
+header, main, footer {
+    min-width : 855px;
+}
+body{
+    background: #f9e933;
+}
+header{
+    background: white;
+    overflow: auto;
+}
+header h1{
+    float: left;
+    width: 570px;
+}
+header nav{
+    float: right;
+    width: 285px;
+}
+main{
+    background: white;
+}
+main img{
+    float : right;
+}
+header .container, main .container, footer .container{
+    max-width: 855px;
+    margin: auto;
+}
+footer .contact{
+    float: left;
+}
+footer .sitemap{
+    float: right;
+}
+
